@@ -1,8 +1,10 @@
- <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:183D28,50:285C37,100:101B14&height=180&section=header&text=Shubhi%20Shukla&fontSize=48&fontColor=9BE7A1&fontAlignY=40&desc=DSA%20Enthusiast&descSize=19&descAlignY=65" width="100%" />
+<div align="center">
+
+<img src="./assets/hero.svg" width="100%" alt="Shubhi Shukla terminal profile banner"/>
 
 </div>
+
 
 <div align="center">
 
