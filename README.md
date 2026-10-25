@@ -6,16 +6,10 @@
 </div>
 
 
-<div align="center">
 
-`C++` · `DSA` · `Problem Solving`
-
-<img src="https://img.shields.io/badge/STATUS-LEARNING-183D28?style=for-the-badge&labelColor=101B14" />
-<img src="https://img.shields.io/badge/FOCUS-DSA-285C37?style=for-the-badge&labelColor=101B14" />
-<img src="https://img.shields.io/badge/BUILDING-PrepPath-D4B95E?style=for-the-badge&labelColor=101B14" />
-
-</div>
 <p align="center">
+  <a href="https://www.linkedin.com/in/shubhi-shukla-5035993bb?utm_source=share_via&utm_content=profile&utm_medium=member_android"/>
+   <img src="https://img.shields.io/badge/LINKEDIN-VIEW%20PROFILE-FFA116?style=for-the-badge&logo=linkedin&logoColor=white" alt="LINKEDIN Profile"/>
   <a href="https://leetcode.com/u/_shubhishukla_/">
     <img src="https://img.shields.io/badge/LEETCODE-VIEW%20PROFILE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile"/>
   </a>
