@@ -25,46 +25,23 @@
 </p>
 
 
-## `01 / about me` 
+## `01 / about`
 
 <div align="center">
 
-### ✦ Hey there, I'm Shubhi! ✦
-
-*`CSE Student | DSA Enthusiast`*
-
-**Curious mind. Logical thinking. Code-driven dreams.**
-
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```yaml
+whoami:
+  name: Shubhi Shukla
+  role: CSE Student | DSA Enthusiast
+  education: second-year student
+  builds: PrepPath Placement Preparation Portal
+  sharpening: C++ fundamentals, DSA, problem solving
+  approach: learn by building, then improve the basics
+  open_to: [internships, collaborations, project ideas]
+```
 
-### 💻 &nbsp; What I'm up to
-
--  Strengthening my **DSA** fundamentals
--  Solving problems using **C++**
--  Exploring **Web Development**
-
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 &nbsp; My current focus
-
--  Writing cleaner, better code
--  Turning concepts into projects
--  Growing one commit at a time
-
-</td>
-</tr>
-</table>
-
-
-`LOGIC > LUCK` &nbsp; · &nbsp; `PROGRESS > PERFECTION`
-
-</div>
 
 
 ## `02 / tech stack`
