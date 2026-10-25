@@ -8,12 +8,38 @@
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#7ee787"/>
-      <stop offset="0.52" stop-color="#b8d875"/>
+      <stop offset="0.55" stop-color="#b8d875"/>
       <stop offset="1" stop-color="#ffb454"/>
     </linearGradient>
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#7ee787" opacity=".12"/>
     </pattern>
+    <style>
+      .reveal {
+        opacity: 0;
+        animation: appear 1s ease-out forwards;
+      }
+      .who { animation-delay: .5s; }
+      .person { animation-delay: 1.5s; }
+      .role { animation-delay: 2.5s; }
+      .focus { animation-delay: 3.3s; }
+      .note { animation-delay: 4.1s; }
+      .panel { animation-delay: 2.8s; }
+      .status { animation-delay: 3.6s; }
+      @keyframes appear {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .glow {
+        animation: glow 1.5s ease-out 1.5s forwards;
+        fill: #285c37;
+        opacity: .2;
+      }
+      @keyframes glow {
+        from { fill: #285c37; opacity: .2; }
+        to { fill: #9bffad; opacity: 1; }
+      }
+    </style>
   </defs>
 
   <rect width="1000" height="350" rx="20" fill="#0d1117"/>
@@ -24,36 +50,32 @@
   <circle cx="27" cy="23" r="6" fill="#ff5f57"/>
   <circle cx="49" cy="23" r="6" fill="#febc2e"/>
   <circle cx="71" cy="23" r="6" fill="#28c840"/>
-
   <text x="500" y="27" fill="#83958a" font-family="monospace" font-size="12" text-anchor="middle">shubhi-shukla ~ /profile</text>
 
-  <text x="60" y="100" fill="#7ee787" font-family="monospace" font-size="20">$ whoami</text>
+  <text x="60" y="100" fill="#7ee787" font-family="monospace" font-size="20" class="reveal who">$ whoami</text>
 
-  <text x="60" y="166" fill="url(#name)" font-family="monospace" font-weight="bold" font-size="43">Shubhi Shukla</text>
+  <text x="60" y="166" font-family="monospace" font-weight="bold" font-size="43" class="reveal person glow">Shubhi Shukla</text>
 
-  <text x="60" y="205" fill="#c2cec5" font-family="monospace" font-size="21">CSE Student | DSA Enthusiast</text>
+  <text x="60" y="205" fill="#c2cec5" font-family="monospace" font-size="21" class="reveal role">CSE Student | DSA Enthusiast</text>
 
-  <text x="60" y="254" fill="#829087" font-family="monospace" font-size="17">focus  →</text>
-  <text x="170" y="254" fill="#7ee787" font-family="monospace" font-size="18">problem solving &amp; web development</text>
+  <text x="60" y="254" fill="#829087" font-family="monospace" font-size="17" class="reveal focus">focus →</text>
+  <text x="170" y="254" fill="#7ee787" font-family="monospace" font-size="18" class="reveal focus">problem solving &amp; web development</text>
+  <text x="60" y="289" fill="#859188" font-family="monospace" font-size="14" class="reveal note">// Learning by building, one project at a time.</text>
 
-  <text x="60" y="289" fill="#859188" font-family="monospace" font-size="14">// Learning by building, one project at a time.</text>
+  <g class="reveal panel">
+    <rect x="685" y="88" width="265" height="170" rx="14" fill="#0d1712" fill-opacity=".85" stroke="#3b6546"/>
+    <text x="705" y="112" fill="#8c9c91" font-family="monospace" font-size="12" letter-spacing="2">PROFILE STATUS</text>
+    <circle cx="927" cy="108" r="5" fill="#7ee787"/>
+  </g>
 
-  <rect x="685" y="88" width="265" height="170" rx="14" fill="#0d1712" fill-opacity=".75" stroke="#3b6546"/>
-  <text x="705" y="112" fill="#8c9c91" font-family="monospace" font-size="12" letter-spacing="2">PROFILE STATUS</text>
-  <circle cx="927" cy="108" r="5" fill="#7ee787"/>
-
-  <text x="705" y="143" fill="#84938a" font-family="monospace" font-size="12">status</text>
-  <text x="790" y="143" fill="#7ee787" font-family="monospace" font-size="13" font-weight="bold">learning</text>
-
-  <text x="705" y="174" fill="#84938a" font-family="monospace" font-size="12">focus</text>
-  <text x="790" y="174" fill="#e1e8e2" font-family="monospace" font-size="12">C++ · DSA</text>
-
-  <text x="705" y="205" fill="#84938a" font-family="monospace" font-size="12">stack</text>
-  <text x="790" y="205" fill="#e1e8e2" font-family="monospace" font-size="12">Python · Web</text>
-
-  <text x="705" y="236" fill="#84938a" font-family="monospace" font-size="12">building</text>
-  <text x="790" y="236" fill="#ffb454" font-family="monospace" font-size="13">PrepPath</text>
+  <g class="reveal status" font-family="monospace" font-size="12">
+    <text x="705" y="143" fill="#84938a">status</text>
+    <text x="790" y="143" fill="#7ee787" font-weight="bold">learning</text>
+    <text x="705" y="174" fill="#84938a">focus</text>
+    <text x="790" y="174" fill="#e1e8e2">C++ · DSA</text>
+    <text x="705" y="205" fill="#84938a">stack</text>
+    <text x="790" y="205" fill="#e1e8e2">Python · Web</text>
+    <text x="705" y="236" fill="#84938a">building</text>
+    <text x="790" y="236" fill="#ffb454" font-size="13">PrepPath</text>
+  </g>
 </svg>
-
-
-  
