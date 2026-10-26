@@ -33,12 +33,29 @@ whoami:
   builds: PrepPath Placement Preparation Portal
   sharpening: C++ fundamentals, DSA, problem solving
   approach: learn by building, then improve the basics
-  open_to: [internships, collaborations, project ideas]
+  open to: internships and  project ideas
 ```
+## `02 / featured project`
 
+### 🚀 PrepPath — Placement Preparation Portal
 
+A student-focused platform to practice aptitude, improve coding skills, and prepare for placement interviews.
 
-## `02 / tech stack`
+**Features**
+
+-  **Aptitude Practice** — Interactive quizzes with scoring
+-  **Coding Practice** — Problem search, difficulty filters, and solved tracking
+-  **Interview Preparation** — HR, technical, and company-specific questions
+-  **Progress Dashboard** — Track preparation progress
+-  **Quiz History** — Save and review previous quiz scores using Flask and SQLite
+
+**Tech Stack:** HTML · CSS · JavaScript · Python · Flask · SQLite
+
+🔗 [View Repository](https://github.com/Shubhishukla610/PrepPath)
+
+---
+
+## `03/ tech stack`
 
 <div align="center">
 
@@ -51,7 +68,7 @@ whoami:
 
 </div>
 
-## `03 / developer mindset`
+## `04 / developer mindset`
 
 ```cpp
 while (learning) {
